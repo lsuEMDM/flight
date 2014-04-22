@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8B3AB9E5-F2B1-41E6-9BEB-5A013657FAB0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iBeaconInstallationBox</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BA06676E-9CCD-4A04-8006-A18AA376020D</key>
+		<string>https://github.com/lsuEMDM/flight.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS app/iBeaconInstallationBox.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BA06676E-9CCD-4A04-8006-A18AA376020D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lsuEMDM/flight.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BA06676E-9CCD-4A04-8006-A18AA376020D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BA06676E-9CCD-4A04-8006-A18AA376020D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>flight</string>
+		</dict>
+	</array>
+</dict>
+</plist>
