@@ -4,7 +4,6 @@ var connect = require('connect'),
     io = require('socket.io').listen(app);
     console.log("http server on 8080");
 
-
 io.sockets.on('connection', function (socket) {
     socket.on('fromwebsite', function (data) {
       socket.broadcast.emit("fromserver", data);
