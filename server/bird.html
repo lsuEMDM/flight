@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="jquery.js"></script>
+		<script src="nexusUI.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+
+
+		<script>
+
+			var palette = ["red", "orange", "yellow", "green", "blue", "purple" ]
+
+		</script>
+
+		<script>
+
+			var shape = "bird"
+
+			var color = 0
+
+			var socket = io.connect('http://nexus.cct.lsu.edu:8080');
+
+			nx.onload = function() {
+				nx.setTransmissionProtocol("local")
+
+				tilt1.localTransmit = function(data) {
+					socket.emit('fromwebsite', { "shape": "/"+shape, "id": "/"+userid, "x": data[0], "y": data[1] })
+				}
+			}
+			
+		</script>
+
+		<canvas nx="tilt" style="width:1px;height:1px"></canvas>
+
+		<div id="shape" class="bird">you're a bird now</div>
+
+	</body>
+</html>

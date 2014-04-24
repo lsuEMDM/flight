@@ -17,8 +17,8 @@
 				nx.setTransmissionProtocol("local");
 
 				tilt1.localTransmit = function(data) {
-					socket.emit('fromwebsite', { "oscname": "/tiltx", "val": 1 });
-					socket.emit('fromwebsite', { "oscname": "/tilty", "val": 2 });
+					socket.emit('fromwebsite', { "oscname": "/tiltx", "val": data[0] });
+					socket.emit('fromwebsite', { "oscname": "/tilty", "val": data[1] });
 				}
 			
 			}
